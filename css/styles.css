@@ -1,5 +1,6 @@
 body {
-  background-color: red;
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
 }
 
 .attribution {
