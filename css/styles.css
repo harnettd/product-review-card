@@ -3,6 +3,13 @@ body {
   font-size: 14px;
 }
 
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 12px;
+  margin: auto;
+  width: 1440px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
