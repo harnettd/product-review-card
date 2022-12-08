@@ -29,6 +29,14 @@ body {
   margin: 16px;
 }
 
+.product-info .category {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.18rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
