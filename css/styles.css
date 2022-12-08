@@ -25,6 +25,10 @@ body {
   width: 50%;
 }
 
+.product-info p {
+  margin: 16px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
