@@ -6,8 +6,23 @@ body {
 .container {
   background-color: hsl(0, 0%, 100%);
   border-radius: 12px;
-  margin: auto;
-  width: 1440px;
+  height: 281.25px;
+  margin: 96px auto;
+  position: relative;
+  width: 375px;
+}
+
+.product-img {
+  left: 0;
+  position: absolute;
+  width: 50%;
+}
+
+.product-info {
+  height: 281.25px;
+  position: absolute;
+  right: 0;
+  width: 50%;
 }
 
 .attribution {
