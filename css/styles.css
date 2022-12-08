@@ -37,6 +37,14 @@ body {
   letter-spacing: 0.18rem;
 }
 
+.product-info .name {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
