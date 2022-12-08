@@ -66,13 +66,30 @@ body {
 
 .product-info .old-price {
   color: hsl(228, 12%, 48%);
-  font-family:  "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 0.5rem;
   font-weight: 500;
   position: absolute;
   right: 25%;
   text-decoration: line-through;
   top: 35%;
+}
+
+.product-info .add-to-cart-button {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 4px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+  font-weight: 700;
+  margin: 16px;
+  padding: 8px 46px;
+}
+
+.cart-img {
+  width: 9px;
+  margin-right: 4px;
 }
 
 .attribution {
