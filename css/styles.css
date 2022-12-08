@@ -45,6 +45,14 @@ body {
   line-height: 1;
 }
 
+.product-info .description {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
