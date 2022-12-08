@@ -53,6 +53,10 @@ body {
   line-height: 1.6;
 }
 
+.product-info .price {
+  position: relative;
+}
+
 .product-info .new-price {
   color: hsl(158, 36%, 37%);
   font-family: "Fraunces", serif;
@@ -65,7 +69,10 @@ body {
   font-family:  "Montserrat", sans-serif;
   font-size: 0.5rem;
   font-weight: 500;
+  position: absolute;
+  right: 25%;
   text-decoration: line-through;
+  top: 35%;
 }
 
 .attribution {
