@@ -1,10 +1,9 @@
-body {
-  background-color: hsl(30, 38%, 92%);
+html {
   font-size: 14px;
 }
 
-p {
-  margin: 18px 24px;
+body {
+  background-color: hsl(30, 38%, 92%);
 }
 
 .vessel {
