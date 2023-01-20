@@ -6,6 +6,10 @@ body {
   background-color: hsl(30, 38%, 92%);
 }
 
+.product-review {
+  margin: 5rem auto;
+}
+
 .vessel {
   background-color: hsl(0, 0%, 100%);
   border-radius: 12px;
