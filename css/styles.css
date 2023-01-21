@@ -7,11 +7,11 @@ body {
 }
 
 .product-review {
-  margin: 5rem auto;
+  margin: 176px auto;
 }
 
-.square {
-  height: 300px;
+.rectangle {
+  height: 450px;
   width: 300px;
 }
 
@@ -27,7 +27,7 @@ body {
 .text-div {
   background-color: hsl(0, 0%, 100%);
   margin-right: auto;
-  padding: 16px;
+  padding: 32px;
 }
 
 .product-info {
