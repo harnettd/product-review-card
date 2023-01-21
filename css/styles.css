@@ -10,21 +10,24 @@ body {
   margin: 5rem auto;
 }
 
-.vessel {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 12px;
-  height: 281.25px;
-  margin: 96px auto;
-  position: relative;
-  width: 375px;
+.square {
+  height: 300px;
+  width: 300px;
+}
+
+.img-div {
+  margin-left: auto;
 }
 
 .product-img {
   border-bottom-left-radius: 12px;
   border-top-left-radius: 12px;
-  left: 0;
-  position: absolute;
-  width: 50%;
+}
+
+.text-div {
+  background-color: hsl(0, 0%, 100%);
+  margin-right: auto;
+  padding: 16px;
 }
 
 .product-info {
