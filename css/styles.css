@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: hsl(30, 38%, 92%);
+  background-color: hsl(30, 38%, 92%);  /* cream */
 }
 
 .product-review {
@@ -25,7 +25,7 @@ body {
 }
 
 .text-div {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);  /* white */
   border-bottom-right-radius: 12px;
   border-top-right-radius: 12px;
   margin-right: auto;
@@ -33,7 +33,7 @@ body {
 }
 
 .category {
-  color: hsl(228, 12%, 48%);
+  color: hsl(228, 12%, 48%);  /* dark greyish blue */
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
@@ -42,7 +42,7 @@ body {
 }
 
 .name {
-  color: hsl(212, 21%, 14%);
+  color: hsl(212, 21%, 14%);  /* very dark blue */
   font-family: "Fraunces", serif;
   font-size: 2.3rem;
   font-weight: 700;
@@ -51,7 +51,7 @@ body {
 }
 
 .description {
-  color: hsl(228, 12%, 48%);
+  color: hsl(228, 12%, 48%);  /* dark greyish blue */
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 500;
@@ -63,14 +63,14 @@ body {
 }
 
 .new-price {
-  color: hsl(158, 36%, 37%);
+  color: hsl(158, 36%, 37%);  /* dark cyan */
   font-family: "Fraunces", serif;
   font-size: 2.3rem;
   font-weight: 700;
 }
 
 .old-price {
-  color: hsl(228, 12%, 48%);
+  color: hsl(228, 12%, 48%);  /* dark greyish blue */
   bottom: 7px;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
@@ -81,7 +81,7 @@ body {
 }
 
 .add-to-cart-button {
-  background-color: hsl(158, 36%, 37%);
+  background-color: hsl(158, 36%, 37%);  /* dark cyan */
   border: none;
   border-radius: 8px;
   color: hsl(0, 0%, 100%);
@@ -93,11 +93,13 @@ body {
 }
 
 .add-to-cart-button:hover {
-  background-color:  hsl(212, 21%, 14%);
+  background-color: #1a4031;
 }
 
 .cart-img {
+  bottom: 1px;
   margin-right: 8px;
+  position: relative;
   width: 16px;
 }
 
@@ -107,5 +109,5 @@ body {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);  /* ??? */
 }
