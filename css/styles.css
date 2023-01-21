@@ -30,13 +30,6 @@ body {
   padding: 32px;
 }
 
-.product-info {
-  height: 281.25px;
-  position: absolute;
-  right: 0;
-  width: 50%;
-}
-
 .category {
   color: hsl(228, 12%, 48%);
   font-family: "Montserrat", sans-serif;
