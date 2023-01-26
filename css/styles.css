@@ -11,7 +11,6 @@ body {
 }
 
 .img-div {
-  background-color: red;
   background-image: url("../images/image-product-desktop.jpg");
   background-size: 300px 450px;
   border-bottom-left-radius: 12px;
@@ -110,4 +109,47 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 620px) {
+
+  .product-review {
+    margin: 30px auto;
+  }
+
+  .img-div {
+    background-image: url("../images/image-product-mobile.jpg");
+    background-size: 340px 240px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 12px;
+    height: 240px;
+    margin-right: auto;
+    width: 340px;
+  }
+  
+  .text-div {
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 0;
+    height: 370px;
+    margin-left: auto;
+    padding: 23px 26px;
+    width: 340px;
+  }
+
+  .category {
+    margin-bottom: 0.7rem;
+  }
+
+  .name {
+    margin-bottom: 1.1rem;
+  }
+
+  .description {
+    margin-bottom: 1.4rem;
+  }
+
+  .price {
+    margin-bottom: 0.7rem;
+  }
+
 }
