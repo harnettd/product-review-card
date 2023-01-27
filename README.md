@@ -6,7 +6,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -22,13 +22,13 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- View the optimal layout depending on their device's screen size. There is a mobile layout and a desktop layout.
+- See hover and focus states for interactive elements. In particular, there is a button whose background-color should change on hover.
 
-### Screenshot
+### Screenshots
 
-![Desktop Screenshot](images/screenshot-desktop.png)
-![Mobile Screenshot](images/screenshot-mobile.png)
+![Desktop Screenshot](images/screenshot_desktop.png)
+![Mobile Screenshot](images/screenshot_mobile.png)
 
 ### Links
 
@@ -47,9 +47,9 @@ Users should be able to:
 
 In completing this challenge, I learned how to
 
-- move HTML elements using the relative value of the CSS position property
+- move HTML elements using the `relative` value of the CSS `position` property
 
-- define a responsive grid using Bootstrap 5, e.g., 
+- define a responsive grid using Bootstrap 5, *e.g.,* 
 
 ```html
 <div class="container-fluid">
@@ -63,7 +63,7 @@ In completing this challenge, I learned how to
     </div>
 ```
 
-- use a media query to create a device breakpoint, e.g., 
+- use a media query to create a device breakpoint, *e.g.,* 
 
 ```css
 @media only screen and (max-width: 620px) {
@@ -72,9 +72,8 @@ In completing this challenge, I learned how to
 ```
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- I used Bootstrap 5 to define a responsive grid. No doubt, there are alternatives that I should learn to use as well.
+- This is the first time that I used a media query---a pretty simple one at that. I plan to learn more about how and why media queries are used in web pages.
 
 ### Useful resources
 
@@ -88,3 +87,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@harnettd](https://www.frontendmentor.io/profile/harnettd)
 
 ## Acknowledgments
+
+- Thanks to [Frontend Mentor](https://www.frontendmentor.io/) for posting this challenge.
