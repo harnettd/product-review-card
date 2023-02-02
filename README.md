@@ -27,6 +27,7 @@ Users should be able to:
 
 ### Screenshots
 
+
 ![Desktop screenshot](images/screenshot_desktop.png)
 ![Mobile screenshot](images/screenshot_mobile.png)
 
