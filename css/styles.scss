@@ -6,13 +6,25 @@ html {
 
 body {
     background-color: $cream;
+    font: {
+        family: "Montserrat", sans-serif;
+        weight: 500;
+    }
+}
+
+h1 {
+    display: none;
+}
+
+h2 {
+    font: {
+        family: "Fraunces", serif;
+        size: 2.3rem;
+        weight: 700;
+    }
 }
 
 main {
-
-    h1 {
-        display: none;
-    }
 
     .product-review {
         margin: 176px auto;
@@ -40,27 +52,19 @@ main {
 
     .category {
         color: $dark-greyish-blue;
-        font-family: "Montserrat", sans-serif;
         font-size: 0.9rem;
-        font-weight: 500;
         letter-spacing: 0.4rem;
         margin-bottom: 1.4rem;
     }
 
     .name {
         color: $very-dark-blue;
-        font-family: "Fraunces", serif;
-        font-size: 2.3rem;
-        font-weight: 700;
         line-height: 1;
         margin-bottom: 1.7rem;
     }
 
     .description {
         color: $dark-greyish-blue;
-        font-family: "Montserrat", sans-serif;
-        font-size: 1rem;
-        font-weight: 500;
         line-height: 1.6;
         margin-bottom: 1.5rem;
     }
@@ -71,17 +75,16 @@ main {
 
     .new-price {
         color: $dark-cyan;
-        font-family: "Fraunces", serif;
-        font-size: 2.3rem;
-        font-weight: 700;
+        font: {
+            family: "Fraunces", serif;
+            size: 2.3rem;
+            weight: 700;
+        }
     }
 
     .old-price {
         color: $dark-greyish-blue;
         bottom: 6px;
-        font-family: "Montserrat", sans-serif;
-        font-size: 1rem;
-        font-weight: 500;
         left: 14px;
         position: relative;
         text-decoration: line-through;
@@ -91,9 +94,7 @@ main {
         background-color: $dark-cyan;
         border: none;
         border-radius: 8px;
-        color: hsl(0, 0%, 100%);
-        font-family: "Montserrat", sans-serif;
-        font-size: 1rem;
+        color: $white;
         font-weight: 700;
         padding: 1rem;
         width: 100%
