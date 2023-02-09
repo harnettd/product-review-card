@@ -1,11 +1,14 @@
 @import "colors";
 
+$mobile: 620px;
+
 html {
     font-size: 14px;
 }
 
 body {
     background-color: $cream;
+
     font: {
         family: "Montserrat", sans-serif;
         weight: 500;
@@ -28,6 +31,10 @@ main {
 
     .product-review {
         margin: 176px auto;
+
+        @media only screen and (max-width: $mobile) {
+            margin: 30px auto;
+        }
     }
 
     .img-div {
@@ -38,6 +45,16 @@ main {
         height: 450px;
         margin-left: auto;
         width: 300px;
+
+        @media only screen and (max-width: $mobile) {
+            background-image: url("../images/image-product-mobile.jpg");
+            background-size: 340px 240px;
+            border-bottom-left-radius: 0;
+            border-top-right-radius: 12px;
+            height: 240px;
+            margin-right: auto;
+            width: 340px;
+        }
     }
 
     .text-div {
@@ -48,6 +65,15 @@ main {
         margin-right: auto;
         padding: 30px 32px;
         width: 300px;
+
+        @media only screen and (max-width: $mobile) {
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 0;
+            height: 370px;
+            margin-left: auto;
+            padding: 23px 26px;
+            width: 340px;
+        }
     }
 
     .category {
@@ -55,26 +81,43 @@ main {
         font-size: 0.9rem;
         letter-spacing: 0.4rem;
         margin-bottom: 1.4rem;
+
+        @media only screen and (max-width: $mobile) {
+            margin-bottom: 0.7rem;
+        }
     }
 
     .name {
         color: $very-dark-blue;
         line-height: 1;
         margin-bottom: 1.7rem;
+
+        @media only screen and (max-width: $mobile) {
+            margin-bottom: 1.1rem;
+        }
     }
 
     .description {
         color: $dark-greyish-blue;
         line-height: 1.6;
         margin-bottom: 1.5rem;
+
+        @media only screen and (max-width: $mobile) {
+            margin-bottom: 1.4rem;
+        }
     }
 
     .price {
         margin-bottom: 1.6rem;
+
+        @media only screen and (max-width: $mobile) {
+            margin-bottom: 0.7rem;
+        }
     }
 
     .new-price {
         color: $dark-cyan;
+
         font: {
             family: "Fraunces", serif;
             size: 2.3rem;
@@ -109,49 +152,6 @@ main {
         margin-right: 8px;
         position: relative;
         width: 16px;
-    }
-
-    @media only screen and (max-width: 620px) {
-
-        .product-review {
-            margin: 30px auto;
-        }
-    
-        .img-div {
-            background-image: url("../images/image-product-mobile.jpg");
-            background-size: 340px 240px;
-            border-bottom-left-radius: 0;
-            border-top-right-radius: 12px;
-            height: 240px;
-            margin-right: auto;
-            width: 340px;
-        }
-    
-        .text-div {
-            border-bottom-left-radius: 12px;
-            border-top-right-radius: 0;
-            height: 370px;
-            margin-left: auto;
-            padding: 23px 26px;
-            width: 340px;
-        }
-    
-        .category {
-            margin-bottom: 0.7rem;
-        }
-    
-        .name {
-            margin-bottom: 1.1rem;
-        }
-    
-        .description {
-            margin-bottom: 1.4rem;
-        }
-    
-        .price {
-            margin-bottom: 0.7rem;
-        }
-    
     }
 
 }
