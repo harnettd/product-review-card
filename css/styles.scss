@@ -1,0 +1,168 @@
+@import "colors";
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: $cream;
+}
+
+main {
+
+    h1 {
+        display: none;
+    }
+
+    .product-review {
+        margin: 176px auto;
+    }
+
+    .img-div {
+        background-image: url("../images/image-product-desktop.jpg");
+        background-size: 300px 450px;
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+        height: 450px;
+        margin-left: auto;
+        width: 300px;
+    }
+
+    .text-div {
+        background-color: $white;
+        border-bottom-right-radius: 12px;
+        border-top-right-radius: 12px;
+        height: 450px;
+        margin-right: auto;
+        padding: 30px 32px;
+        width: 300px;
+    }
+
+    .category {
+        color: $dark-greyish-blue;
+        font-family: "Montserrat", sans-serif;
+        font-size: 0.9rem;
+        font-weight: 500;
+        letter-spacing: 0.4rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .name {
+        color: $very-dark-blue;
+        font-family: "Fraunces", serif;
+        font-size: 2.3rem;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 1.7rem;
+    }
+
+    .description {
+        color: $dark-greyish-blue;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+
+    .price {
+        margin-bottom: 1.6rem;
+    }
+
+    .new-price {
+        color: $dark-cyan;
+        font-family: "Fraunces", serif;
+        font-size: 2.3rem;
+        font-weight: 700;
+    }
+
+    .old-price {
+        color: $dark-greyish-blue;
+        bottom: 6px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        left: 14px;
+        position: relative;
+        text-decoration: line-through;
+    }
+
+    .add-to-cart-button {
+        background-color: $dark-cyan;
+        border: none;
+        border-radius: 8px;
+        color: hsl(0, 0%, 100%);
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+        padding: 1rem;
+        width: 100%
+    }
+
+    .add-to-cart-button:hover {
+        background-color: $very-dark-cyan;
+    }
+
+    .cart-img {
+        bottom: 1px;
+        margin-right: 8px;
+        position: relative;
+        width: 16px;
+    }
+
+    @media only screen and (max-width: 620px) {
+
+        .product-review {
+            margin: 30px auto;
+        }
+    
+        .img-div {
+            background-image: url("../images/image-product-mobile.jpg");
+            background-size: 340px 240px;
+            border-bottom-left-radius: 0;
+            border-top-right-radius: 12px;
+            height: 240px;
+            margin-right: auto;
+            width: 340px;
+        }
+    
+        .text-div {
+            border-bottom-left-radius: 12px;
+            border-top-right-radius: 0;
+            height: 370px;
+            margin-left: auto;
+            padding: 23px 26px;
+            width: 340px;
+        }
+    
+        .category {
+            margin-bottom: 0.7rem;
+        }
+    
+        .name {
+            margin-bottom: 1.1rem;
+        }
+    
+        .description {
+            margin-bottom: 1.4rem;
+        }
+    
+        .price {
+            margin-bottom: 0.7rem;
+        }
+    
+    }
+
+}
+
+footer {
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: $footer-blue;
+    }
+}
