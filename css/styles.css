@@ -132,6 +132,7 @@ main .text-col .add-to-cart-button {
 }
 main .text-col .add-to-cart-button:hover {
   background-color: #1a4031;
+  cursor: pointer;
 }
 main .text-col .cart-img {
   margin-right: 0.7rem;
