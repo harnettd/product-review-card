@@ -74,6 +74,8 @@ In completing this challenge, I learned how to
 ### Continued development
 
 - I used Bootstrap 5 to define a responsive grid. No doubt, there are alternatives that I should learn to use as well.
+  - **Version 2 update:** Rather than use Bootstrap 5, I used Flexbox instead. The resulting html and css code is actually
+  a lot simpler.
 - This is the first time that I used a media query---a pretty simple one at that. I plan to learn more about how and why media queries are used in web pages.
 
 ### Useful resources
