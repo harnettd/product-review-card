@@ -1,9 +1,13 @@
 @import "colors";
 
-$mobile: 620px;
+$mobile: 767px;
 
 html {
     font-size: 14px;
+}
+
+* {
+    margin-top: 0;
 }
 
 body {
@@ -13,6 +17,9 @@ body {
         family: "Montserrat", sans-serif;
         weight: 500;
     }
+
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -29,141 +36,137 @@ h2 {
 
 main {
 
-    .product-review {
-        margin: 176px auto;
+    .product-review-card {
+        border-radius: 1rem;
+        display: flex;
+        margin: 12.5714rem auto;
+        overflow: hidden;
+        width: 42.8571rem;
 
-        @media only screen and (max-width: $mobile) {
-            margin: 30px auto;
+        @media screen and (max-width: $mobile) {
+            flex-direction: column;
+            margin: 2.1429rem auto;
+            width: 24.5714rem;
         }
     }
 
-    .img-div {
-        background-image: url("../images/image-product-desktop.jpg");
-        background-size: 300px 450px;
-        border-bottom-left-radius: 12px;
-        border-top-left-radius: 12px;
-        height: 450px;
-        margin-left: auto;
-        width: 300px;
-
-        @media only screen and (max-width: $mobile) {
-            background-image: url("../images/image-product-mobile.jpg");
-            background-size: 340px 240px;
-            border-bottom-left-radius: 0;
-            border-top-right-radius: 12px;
-            height: 240px;
-            margin-right: auto;
-            width: 340px;
-        }
-    }
-
-    .text-div {
+    .img-col {
         background-color: $white;
-        border-bottom-right-radius: 12px;
-        border-top-right-radius: 12px;
-        height: 450px;
-        margin-right: auto;
-        padding: 30px 32px;
-        width: 300px;
+        width: 50%;
 
-        @media only screen and (max-width: $mobile) {
-            border-bottom-left-radius: 12px;
-            border-top-right-radius: 0;
-            height: 370px;
-            margin-left: auto;
-            padding: 23px 26px;
-            width: 340px;
+        @media screen and (max-width: $mobile) {
+            width: 100%;
+        }
+
+        .img-perfume {
+            display: block;
+            height: 100%;
+            width: 100%;
         }
     }
 
-    .category {
-        color: $dark-greyish-blue;
-        font-size: 0.9rem;
-        letter-spacing: 0.4rem;
-        margin-bottom: 1.4rem;
+    .text-col {
+        background-color: $white;
+        box-sizing: border-box;
+        padding: 2.2857rem;
+        width: 50%;
 
-        @media only screen and (max-width: $mobile) {
-            margin-bottom: 0.7rem;
+        @media screen and (max-width: $mobile) {
+            padding: 1.6rem;
+            width: 100%;
         }
-    }
 
-    .name {
-        color: $very-dark-blue;
-        line-height: 1;
-        margin-bottom: 1.7rem;
+        .category {
+            color: $dark-greyish-blue;
+            font-size: 0.9rem;
+            letter-spacing: 0.4rem;
+            margin-bottom: 1.5rem;
 
-        @media only screen and (max-width: $mobile) {
-            margin-bottom: 1.1rem;
+            @media screen and (max-width: $mobile) {
+                margin-bottom: 0.8rem;
+            }
         }
-    }
 
-    .description {
-        color: $dark-greyish-blue;
-        line-height: 1.6;
-        margin-bottom: 1.5rem;
+        .name {
+            color: $very-dark-blue;
+            line-height: 1;
+            margin-bottom: 1.7rem;
 
-        @media only screen and (max-width: $mobile) {
-            margin-bottom: 1.4rem;
+            @media screen and (max-width: $mobile) {
+                margin-bottom: 1.2rem;
+            }
         }
-    }
 
-    .price {
-        margin-bottom: 1.6rem;
+        .description {
+            color: $dark-greyish-blue;
+            line-height: 1.6;
+            margin-bottom: 1.9rem;
 
-        @media only screen and (max-width: $mobile) {
-            margin-bottom: 0.7rem;
+            @media screen and (max-width: $mobile) {
+                margin-bottom: 1.5rem;
+            }
         }
-    }
 
-    .new-price {
-        color: $dark-cyan;
+        .price {
+            margin-bottom: 1.8rem;
 
-        font: {
-            family: "Fraunces", serif;
-            size: 2.3rem;
-            weight: 700;
+            @media screen and (max-width: $mobile) {
+                margin-bottom: 1.1rem;
+            }
         }
-    }
 
-    .old-price {
-        color: $dark-greyish-blue;
-        bottom: 6px;
-        left: 14px;
-        position: relative;
-        text-decoration: line-through;
-    }
+        .new-price {
+            color: $dark-cyan;
 
-    .add-to-cart-button {
-        background-color: $dark-cyan;
-        border: none;
-        border-radius: 8px;
-        color: $white;
-        font-weight: 700;
-        padding: 1rem;
-        width: 100%
-    }
+            font: {
+                family: "Fraunces", serif;
+                size: 2.3rem;
+                weight: 700;
+            }
+        }
 
-    .add-to-cart-button:hover {
-        background-color: $very-dark-cyan;
-    }
+        .old-price {
+            color: $dark-greyish-blue;
+            bottom: 6px;
+            left: 14px;
+            position: relative;
+            text-decoration: line-through;
+        }
 
-    .cart-img {
-        bottom: 1px;
-        margin-right: 8px;
-        position: relative;
-        width: 16px;
-    }
+        .add-to-cart-button {
+            align-items: center;
+            background-color: $dark-cyan;
+            border: none;
+            border-radius: 8px;
+            box-sizing: border-box;
+            color: $white;
+            display: flex;
+            font: {
+                size: 1rem;
+                weight: 700;
+            }
+            justify-content: center;
+            padding: 1.1429rem;
+            width: 100%
+        }
 
+        .add-to-cart-button:hover {
+            background-color: $very-dark-cyan;
+        }
+
+        .cart-img {
+            margin-right: 0.7rem;
+            width: 1.1429rem;
+        }
+
+    }
 }
 
 footer {
+    font-size: 11px;
+    text-align: center;
 
-    .attribution {
-        font-size: 11px;
-        text-align: center;
-    }
-
-    .attribution a {
+    a {
         color: $footer-blue;
     }
 }

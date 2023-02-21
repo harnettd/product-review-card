@@ -2,10 +2,16 @@ html {
   font-size: 14px;
 }
 
+* {
+  margin-top: 0;
+}
+
 body {
   background-color: hsl(30deg, 38%, 92%);
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -18,128 +24,124 @@ h2 {
   font-weight: 700;
 }
 
-main .product-review {
-  margin: 176px auto;
+main .product-review-card {
+  border-radius: 1rem;
+  display: flex;
+  margin: 12.5714rem auto;
+  overflow: hidden;
+  width: 42.8571rem;
 }
-@media only screen and (max-width: 620px) {
-  main .product-review {
-    margin: 30px auto;
+@media screen and (max-width: 767px) {
+  main .product-review-card {
+    flex-direction: column;
+    margin: 2.1429rem auto;
+    width: 24.5714rem;
   }
 }
-main .img-div {
-  background-image: url("../images/image-product-desktop.jpg");
-  background-size: 300px 450px;
-  border-bottom-left-radius: 12px;
-  border-top-left-radius: 12px;
-  height: 450px;
-  margin-left: auto;
-  width: 300px;
-}
-@media only screen and (max-width: 620px) {
-  main .img-div {
-    background-image: url("../images/image-product-mobile.jpg");
-    background-size: 340px 240px;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 12px;
-    height: 240px;
-    margin-right: auto;
-    width: 340px;
-  }
-}
-main .text-div {
+main .img-col {
   background-color: hsl(0deg, 0%, 100%);
-  border-bottom-right-radius: 12px;
-  border-top-right-radius: 12px;
-  height: 450px;
-  margin-right: auto;
-  padding: 30px 32px;
-  width: 300px;
+  width: 50%;
 }
-@media only screen and (max-width: 620px) {
-  main .text-div {
-    border-bottom-left-radius: 12px;
-    border-top-right-radius: 0;
-    height: 370px;
-    margin-left: auto;
-    padding: 23px 26px;
-    width: 340px;
+@media screen and (max-width: 767px) {
+  main .img-col {
+    width: 100%;
   }
 }
-main .category {
+main .img-col .img-perfume {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+main .text-col {
+  background-color: hsl(0deg, 0%, 100%);
+  box-sizing: border-box;
+  padding: 2.2857rem;
+  width: 50%;
+}
+@media screen and (max-width: 767px) {
+  main .text-col {
+    padding: 1.6rem;
+    width: 100%;
+  }
+}
+main .text-col .category {
   color: hsl(228deg, 12%, 48%);
   font-size: 0.9rem;
   letter-spacing: 0.4rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.5rem;
 }
-@media only screen and (max-width: 620px) {
-  main .category {
-    margin-bottom: 0.7rem;
+@media screen and (max-width: 767px) {
+  main .text-col .category {
+    margin-bottom: 0.8rem;
   }
 }
-main .name {
+main .text-col .name {
   color: hsl(212deg, 21%, 14%);
   line-height: 1;
   margin-bottom: 1.7rem;
 }
-@media only screen and (max-width: 620px) {
-  main .name {
+@media screen and (max-width: 767px) {
+  main .text-col .name {
+    margin-bottom: 1.2rem;
+  }
+}
+main .text-col .description {
+  color: hsl(228deg, 12%, 48%);
+  line-height: 1.6;
+  margin-bottom: 1.9rem;
+}
+@media screen and (max-width: 767px) {
+  main .text-col .description {
+    margin-bottom: 1.5rem;
+  }
+}
+main .text-col .price {
+  margin-bottom: 1.8rem;
+}
+@media screen and (max-width: 767px) {
+  main .text-col .price {
     margin-bottom: 1.1rem;
   }
 }
-main .description {
-  color: hsl(228deg, 12%, 48%);
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-}
-@media only screen and (max-width: 620px) {
-  main .description {
-    margin-bottom: 1.4rem;
-  }
-}
-main .price {
-  margin-bottom: 1.6rem;
-}
-@media only screen and (max-width: 620px) {
-  main .price {
-    margin-bottom: 0.7rem;
-  }
-}
-main .new-price {
+main .text-col .new-price {
   color: hsl(158deg, 36%, 37%);
   font-family: "Fraunces", serif;
   font-size: 2.3rem;
   font-weight: 700;
 }
-main .old-price {
+main .text-col .old-price {
   color: hsl(228deg, 12%, 48%);
   bottom: 6px;
   left: 14px;
   position: relative;
   text-decoration: line-through;
 }
-main .add-to-cart-button {
+main .text-col .add-to-cart-button {
+  align-items: center;
   background-color: hsl(158deg, 36%, 37%);
   border: none;
   border-radius: 8px;
+  box-sizing: border-box;
   color: hsl(0deg, 0%, 100%);
+  display: flex;
+  font-size: 1rem;
   font-weight: 700;
-  padding: 1rem;
+  justify-content: center;
+  padding: 1.1429rem;
   width: 100%;
 }
-main .add-to-cart-button:hover {
+main .text-col .add-to-cart-button:hover {
   background-color: #1a4031;
 }
-main .cart-img {
-  bottom: 1px;
-  margin-right: 8px;
-  position: relative;
-  width: 16px;
+main .text-col .cart-img {
+  margin-right: 0.7rem;
+  width: 1.1429rem;
 }
 
-footer .attribution {
+footer {
   font-size: 11px;
   text-align: center;
 }
-footer .attribution a {
+footer a {
   color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=styles.css.map */
