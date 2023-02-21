@@ -111,8 +111,8 @@ main .text-col .new-price {
 }
 main .text-col .old-price {
   color: hsl(228deg, 12%, 48%);
-  bottom: 6px;
-  left: 14px;
+  bottom: 0.4286rem;
+  left: 1rem;
   position: relative;
   text-decoration: line-through;
 }
@@ -120,7 +120,7 @@ main .text-col .add-to-cart-button {
   align-items: center;
   background-color: hsl(158deg, 36%, 37%);
   border: none;
-  border-radius: 8px;
+  border-radius: 0.5714rem;
   box-sizing: border-box;
   color: hsl(0deg, 0%, 100%);
   display: flex;

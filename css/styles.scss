@@ -127,8 +127,8 @@ main {
 
         .old-price {
             color: $dark-greyish-blue;
-            bottom: 6px;
-            left: 14px;
+            bottom: 0.4286rem;
+            left: 1rem;
             position: relative;
             text-decoration: line-through;
         }
@@ -137,14 +137,16 @@ main {
             align-items: center;
             background-color: $dark-cyan;
             border: none;
-            border-radius: 8px;
+            border-radius: 0.5714rem;
             box-sizing: border-box;
             color: $white;
             display: flex;
+
             font: {
                 size: 1rem;
                 weight: 700;
             }
+            
             justify-content: center;
             padding: 1.1429rem;
             width: 100%
