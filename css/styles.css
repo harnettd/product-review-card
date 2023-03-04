@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background-color: hsl(30deg, 38%, 92%);
+  background-color: hsl(30, 38%, 92%);
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   margin: 0;
@@ -15,10 +15,6 @@ body {
 }
 
 h1 {
-  display: none;
-}
-
-h2 {
   font-family: "Fraunces", serif;
   font-size: 2.3rem;
   font-weight: 700;
@@ -39,7 +35,7 @@ main .product-review-card {
   }
 }
 main .img-col {
-  background-color: hsl(0deg, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
   width: 50%;
 }
 @media screen and (max-width: 767px) {
@@ -53,7 +49,7 @@ main .img-col .img-perfume {
   width: 100%;
 }
 main .text-col {
-  background-color: hsl(0deg, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
   box-sizing: border-box;
   padding: 2.2857rem;
   width: 50%;
@@ -65,7 +61,7 @@ main .text-col {
   }
 }
 main .text-col .category {
-  color: hsl(228deg, 12%, 48%);
+  color: hsl(228, 12%, 48%);
   font-size: 0.9rem;
   letter-spacing: 0.4rem;
   margin-bottom: 1.5rem;
@@ -76,7 +72,7 @@ main .text-col .category {
   }
 }
 main .text-col .name {
-  color: hsl(212deg, 21%, 14%);
+  color: hsl(212, 21%, 14%);
   line-height: 1;
   margin-bottom: 1.7rem;
 }
@@ -86,7 +82,7 @@ main .text-col .name {
   }
 }
 main .text-col .description {
-  color: hsl(228deg, 12%, 48%);
+  color: hsl(228, 12%, 48%);
   line-height: 1.6;
   margin-bottom: 1.9rem;
 }
@@ -104,13 +100,13 @@ main .text-col .price {
   }
 }
 main .text-col .new-price {
-  color: hsl(158deg, 36%, 37%);
+  color: hsl(158, 36%, 37%);
   font-family: "Fraunces", serif;
   font-size: 2.3rem;
   font-weight: 700;
 }
 main .text-col .old-price {
-  color: hsl(228deg, 12%, 48%);
+  color: hsl(228, 12%, 48%);
   bottom: 0.4286rem;
   left: 1rem;
   position: relative;
@@ -118,11 +114,11 @@ main .text-col .old-price {
 }
 main .text-col .add-to-cart-button {
   align-items: center;
-  background-color: hsl(158deg, 36%, 37%);
+  background-color: hsl(158, 36%, 37%);
   border: none;
   border-radius: 0.5714rem;
   box-sizing: border-box;
-  color: hsl(0deg, 0%, 100%);
+  color: hsl(0, 0%, 100%);
   display: flex;
   font-size: 1rem;
   font-weight: 700;
@@ -144,5 +140,5 @@ footer {
   text-align: center;
 }
 footer a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=styles.css.map */
